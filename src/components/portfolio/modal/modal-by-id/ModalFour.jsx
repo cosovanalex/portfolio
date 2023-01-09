@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import CloseImg from "../../../../../public/assets/img/cancel.svg";
 import PortfolioData from '../../portfolioData';
+import img4 from "../../../../../public/assets/img/portfolio/project-4.jpg";
 
 const ModalFour = ({ modalId, setGetModal }) => {
   return (
@@ -51,17 +52,10 @@ const ModalFour = ({ modalId, setGetModal }) => {
                 })}
               </div>
               <figure className="modal__img">
-                {/* <img src={item.image} alt="portfolio project demo" /> */}
-                <video
-                  id="video"
-                  className="responsive-video"
-                  controls
-                  poster={item.image}
-                >
-                  <source src={'/assets/img/portfolio/video.mp4'} type="video/mp4" />
-                  {/* <source src="img/" type="video/mp4" /> */}
-                </video>
-              </figure>
+                    <div>
+                      <Image src={img4} alt="portfolio project demo" />
+                    </div>
+                </figure>
 
               <button
                 className="close-modal"
