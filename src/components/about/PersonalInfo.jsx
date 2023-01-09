@@ -7,7 +7,8 @@ const personalInfoContent = [
   { meta: "Nationality", metaInfo: "Romanian", hasColor: "" },
   { meta: "Address", metaInfo: "Madison, WI USA", hasColor: "" },
   { meta: "phone", metaInfo: "+6083931392", hasColor: "" },
-  { meta: "Email", metaInfo: "cosovan.alexandru@gmail.com", hasColor: "" },
+  { meta: "Email", metaInfo: "cosovan.alexandru@gmail.com", hasColor: "" },  
+  { meta: "", metaInfo: "", hasColor: "" }, 
   { meta: "languages", metaInfo: "English, Romanian, Hungarian", hasColor: "" },
 ];
 
@@ -16,9 +17,10 @@ const PersonalInfo = () => {
     <ul className="about-list list-unstyled open-sans-font">
       {personalInfoContent.map((val, i) => (
         <li key={i}>
-          <span className="title">{val.meta}: </span>
+          <span className="title">{val.meta} </span>
           <span
             className={`value d-block d-sm-inline-block d-lg-block d-xl-inline-block ${val.hasColor}`}
+            style={{ display: "block" }}
           >
             {val.metaInfo}
           </span>
