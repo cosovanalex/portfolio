@@ -13,7 +13,7 @@ const educationContent = [
   },
   {
     year: "2008-2011",
-    degree: "BACHELOR DEGREE in Business Administration and Management",
+    degree: "BACHELOR'S DEGREE in Business Administration and Management",
     institute: "BABES-BOLYAI University",
 
   },

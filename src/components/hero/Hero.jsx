@@ -10,13 +10,21 @@ const heroContent = {
   heroMobileImage: heroImgMobile,
   heroTitleName: "alexandru",
   heroDesignation: "software engineer",
-  heroDescriptions: `I am Alexandru Cosovan, but you can call me Coso. 
-  I am a skilled software engineer with a strong foundation in computer science and a passion for problem-solving. 
-  I am well-equipped to tackle complex technical challenges and bring experience in graphic design and video/audio production, 
-  as well as proven project management abilities. I am a dynamic and driven individual, 
-  eager to make an impact at a forward-thinking company with my skills and expertise.`,
+  heroDescriptions: `As a software developer, I have always been driven by a deep-seated passion for technology
+  that was ignited at the tender age of 4 when I was first introduced to my first computer.
+  My lifelong love for learning and my ability to quickly absorb new information has been a valuable asset in my journey,
+  allowing me to navigate the challenging and uncertain path as an immigrant to pursue my dreams.
+  \n
+  \n
+  With a diverse set of skills
+  including software development, graphic design, video and audio production, and a background in martial arts
+  that has taught me to remain calm under pressure, I am a well-rounded developer with a strong drive to improve
+  and a passion for problem-solving. I have proven management and project management abilities, and I am always eager to take on new challenges,
+  expand my knowledge and make a meaningful impact in the field. I bring a unique perspective, an unshakable determination
+  and a willingness to think outside the box, all elements that make me a valuable asset to any team.`,
   heroBtn: "more about me",
 };
+
 
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
