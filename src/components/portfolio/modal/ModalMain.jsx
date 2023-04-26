@@ -6,8 +6,6 @@ import ModalFour from "./modal-by-id/ModalFour";
 import ModalFive from "./modal-by-id/ModalFive";
 import ModalSix from "./modal-by-id/ModalSix";
 import ModalSeven from "./modal-by-id/ModalSeven";
-import ModalEight from "./modal-by-id/ModalEight";
-import ModalNine from "./modal-by-id/ModalNine";
 
 const ModalMain = ({ modalId, setGetModal }) => {
   if (modalId === 1) {
@@ -37,14 +35,6 @@ const ModalMain = ({ modalId, setGetModal }) => {
   } else if (modalId === 7) {
     return (
       <ModalSeven modalId={modalId} setGetModal={setGetModal}/>
-    );
-  } else if (modalId === 8) {
-    return (
-      <ModalEight modalId={modalId} setGetModal={setGetModal}/>
-    );
-  } else if (modalId === 9) {
-    return (
-      <ModalNine modalId={modalId} setGetModal={setGetModal}/>
     );
   }
 };

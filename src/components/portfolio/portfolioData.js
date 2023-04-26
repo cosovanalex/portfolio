@@ -114,36 +114,6 @@ const PortfolioData = [
       },
     ],
   },
-  {
-    id: 8,
-    type: "Video",
-    image: Image8,
-    tag: ["video"],
-    delayAnimation: "100",
-    modalDetails: [
-      {
-        project: "Green - A Story of Earth",
-        technology: "Adobe Premier, Adobe After Effects, Adobe Audition",
-        preview: "www.youtube.com",
-        link: "https://youtu.be/H894jyVm2oE",
-      },
-    ],
-  },
-  {
-    id: 9,
-    type: "Video Documentary",
-    image: Image9,
-    tag: ["video"],
-    delayAnimation: "200",
-    modalDetails: [
-      {
-        project: "Documentary style Interview with S. Lee Glick",
-        technology: "Adobe Premier, Adobe After Effects, Adobe Audition",
-        preview: "www.youtube.com",
-        link: "https://youtu.be/xVm0MEtiizc",
-      },
-    ],
-  },
 ];
 
 export default PortfolioData;

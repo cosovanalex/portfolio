@@ -9,19 +9,10 @@ const heroContent = {
   heroImage: "/assets/img/hero/dark.jpg",
   heroMobileImage: heroImgMobile,
   heroTitleName: "alexandru",
-  heroDesignation: "software engineer",
-  heroDescriptions: `As a software developer, I have always been driven by a deep-seated passion for technology
-  that was ignited at the tender age of 4 when I was first introduced to my first computer.
-  My lifelong love for learning and my ability to quickly absorb new information has been a valuable asset in my journey,
-  allowing me to navigate the challenging and uncertain path as an immigrant to pursue my dreams.
-  \n
-  \n
-  With a diverse set of skills
-  including software development, graphic design, video and audio production, and a background in martial arts
-  that has taught me to remain calm under pressure, I am a well-rounded developer with a strong drive to improve
-  and a passion for problem-solving. I have proven management and project management abilities, and I am always eager to take on new challenges,
-  expand my knowledge and make a meaningful impact in the field. I bring a unique perspective, an unshakable determination
-  and a willingness to think outside the box, all elements that make me a valuable asset to any team.`,
+  heroDesignation: "Passionate Front-End Developer & Problem Solver",
+  heroDescriptions: `As a resourceful and adaptable Front-end Developer, with 12 years of professional experience, I specialize in crafting innovative web applications and digital experiences backed by a strong foundation in HTML, CSS, JavaScript, and Python. My diverse background has honed my problem-solving, project management, and technical skills, enabling me to excel in any team environment.\n
+Well-versed in full-stack development, I possess expertise in Adobe Creative Suite, Canva, Figma, Flask, Git/GitHub, Node.js, PostgreSQL, SQL, and TypeScript. With certifications in CSS, HTML, JavaScript, Python, Flask, SQL, and React, I am committed to continuous learning and keeping pace with industry trends.\n
+Driven by a passion for delivering exceptional front-end experiences, I am eager to contribute to a forward-thinking company, tackling front-end, full-stack, or software engineering challenges.`,
   heroBtn: "more about me",
 };
 
@@ -48,10 +39,13 @@ const Hero = () => {
               // style={{width:'100%',height:'100%'}}
             />
             <h1 className="text-uppercase poppins-font">
-              {"I'm"} {heroContent.heroTitleName}.
+              {"Hello! I'm"} {heroContent.heroTitleName},
               <span>{heroContent.heroDesignation}</span>
             </h1>
-            <p className="open-sans-font">{heroContent.heroDescriptions}</p>
+            <p className="open-sans-font" style={{ whiteSpace: "pre-wrap" }}>
+              {heroContent.heroDescriptions}
+            </p>
+
             <button className="button" onClick={toggleModalOne}>
               <span className="button-text">{heroContent.heroBtn}</span>
               <span className="button-icon fa fa-arrow-right"></span>

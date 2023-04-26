@@ -1,7 +1,7 @@
 import React from "react";
 
 const achievementsContent = [
-  { title: "1", subTitle1: "year of", subTitle2: "experience" },
+  { title: "3", subTitle1: "year of", subTitle2: "experience" },
   { title: "14", subTitle1: "completed", subTitle2: "projects" },
 ];
 
